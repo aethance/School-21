@@ -1,0 +1,23 @@
+May 30 10:24:35.867 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+May 30 10:24:35.867 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 32827.
+May 30 10:24:35.869 HYPERVISOR: exec_cmd: hypervisor version 
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aethance/GNS3/projects/d4e39419-3e7a-43ae-9b40-bda0f0b4da3c/project-files/dynamips 
+May 30 10:24:35.870 GENERAL: working_dir=/home/aethance/GNS3/projects/d4e39419-3e7a-43ae-9b40-bda0f0b4da3c/project-files/dynamips
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aethance/GNS3/projects/d4e39419-3e7a-43ae-9b40-bda0f0b4da3c/project-files/dynamips/ef05d36d-9f7b-4024-b4fc-3be7f48f5e2c 
+May 30 10:24:35.870 GENERAL: working_dir=/home/aethance/GNS3/projects/d4e39419-3e7a-43ae-9b40-bda0f0b4da3c/project-files/dynamips/ef05d36d-9f7b-4024-b4fc-3be7f48f5e2c
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+May 30 10:24:35.870 VM: VM R1 created.
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+May 30 10:24:35.870 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+May 30 10:24:35.871 HYPERVISOR: exec_cmd: vm set_ios R1 /home/aethance/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+May 30 10:24:35.871 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+May 30 10:24:35.871 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.4394.0000 
+May 30 10:24:55.674 HYPERVISOR: exec_cmd: vm get_status R1 
+May 30 10:24:55.675 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 30 10:24:55.675 HYPERVISOR: exec_cmd: vm delete R1 
+May 30 10:24:55.675 VM: VM R1 destroyed.
+May 30 10:24:55.676 HYPERVISOR: exec_cmd: hypervisor stop 
+May 30 10:24:55.892 HYPERVISOR: Stopped.
+May 30 10:24:55.892 GENERAL: reset done.

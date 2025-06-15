@@ -1,0 +1,16 @@
+The ICMP Echo Request is sent to the destination MAC address 01:00:5e:01:01:01.
+
+This destination MAC address is derived from the multicast IP address using a specific algorithm. The lower 23 bits of the multicast IP address are extracted, a fixed multicast prefix (01:00:5e) is added, and the result is converted to hexadecimal format.
+
+For example, the multicast IP address 239.1.1.1 is represented in binary as:
+11101111.00000001.00000001.00000001
+
+Taking the lower 23 bits:
+0000001.00000001.00000001
+
+Converted to hexadecimal:
+0x01:01:01
+
+Therefore, the complete destination MAC address becomes:
+01:00:5e:01:01:01
+
